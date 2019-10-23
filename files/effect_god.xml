@@ -1,0 +1,20 @@
+<Entity>
+	<InheritTransformComponent>
+    </InheritTransformComponent>
+    <GameEffectComponent 
+    	effect="PROTECTION_ALL"
+    	frames="-1"
+    />
+    <GameEffectComponent 
+    	effect="MOVEMENT_FASTER"
+    	frames="-1"
+    />
+    <GameEffectComponent 
+    	effect="BREATH_UNDERWATER"
+    	frames="-1"
+    />
+    <GameEffectComponent 
+    	effect="EDIT_WANDS_EVERYWHERE"
+    	frames="-1"
+    />
+</Entity>

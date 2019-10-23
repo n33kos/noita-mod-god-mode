@@ -1,0 +1,6 @@
+<Mod
+	name="God Mode"
+	description="Start the game as an indestructible being!"
+	request_no_api_restrictions="0" 
+> 
+</Mod>
