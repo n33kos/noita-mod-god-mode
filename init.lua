@@ -1,5 +1,14 @@
 dofile( "data/scripts/perks/perk.lua" )
 
+function OnModInit()
+	-- Append gun actions script
+    ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/god_mode/files/gun_actions.lua" )
+    ModLuaFileAppend( "data/scripts/gun/gun_actions_unlimited.lua", "mods/god_mode/files/gun_actions.lua" )
+    ModLuaFileAppend( "data/scripts/gun/_gun_actions_unlimited.lua", "mods/god_mode/files/gun_actions.lua" )
+    ModLuaFileAppend( "data/scripts/gun/gun_actions_limited.lua", "mods/god_mode/files/gun_actions.lua" )
+    ModLuaFileAppend( "data/scripts/gun/gun_actions_petri.lua", "mods/god_mode/files/gun_actions.lua" )
+end
+
 function OnPlayerSpawned( player_entity ) -- this runs when player entity has been created
 	local init_check_flag = "init_god_mode_done"
 	if GameHasFlagRun( init_check_flag ) then
